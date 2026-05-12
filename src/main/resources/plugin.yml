@@ -1,0 +1,26 @@
+name: VotingSystem
+version: '1.0.0'
+main: ru.dom.votingsystem.VotingSystemPlugin
+api-version: '1.21'
+authors: [Dom]
+description: Production-ready voting plugin for Purpur/Paper
+
+commands:
+  vote:
+    description: Voting menu and admin subcommands
+    usage: /vote [forcestart <name>|forceend|reload]
+    permission: votingsystem.use
+
+permissions:
+  votingsystem.use:
+    description: Use voting menu
+    default: true
+  votingsystem.admin.forcestart:
+    description: Force start voting
+    default: op
+  votingsystem.admin.forceend:
+    description: Force end voting
+    default: op
+  votingsystem.admin.reload:
+    description: Reload plugin
+    default: op

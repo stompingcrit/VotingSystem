@@ -1,0 +1,7 @@
+sounds:
+  start_of_voting: ENTITY_VILLAGER_YES
+  selection_of_voting_option: BLOCK_NOTE_BLOCK_PLING
+  no_one_vote: ENTITY_VILLAGER_NO
+  same_number_of_votes: ENTITY_VILLAGER_NO
+  end_of_voting: ENTITY_WITHER_DEATH
+  no_votes_action: "NOTHING"

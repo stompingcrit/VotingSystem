@@ -1,0 +1,71 @@
+settings:
+  voting-duration-seconds: 60
+  delay-between-votings-seconds: 300
+
+gui:
+  size: 27
+
+votings:
+  voting1:
+    title: "&aГолосование за погоду"
+    items:
+      item1:
+        title: "&aВариант #1"
+        slot: 10
+        material: SHULKER_BOX
+        lore:
+          - ""
+          - "&3Меняет время суток на день и погоду на ясную"
+          - ""
+          - "&eНажмите, чтобы проголосовать!"
+          - ""
+          - "&7Голоса: {votes}"
+        actions_on_win:
+          - "[console] time set day"
+          - "[console] weather clear"
+          - "[message] &aВариант #1 победил в голосовании"
+      item2:
+        title: "&aВариант #2"
+        slot: 12
+        material: BEETROOT
+        lore:
+          - ""
+          - "&3Меняет время суток на день и погоду на грозовую"
+          - ""
+          - "&eНажмите, чтобы проголосовать!"
+          - ""
+          - "&7Голоса: {votes}"
+        actions_on_win:
+          - "[console] time set day"
+          - "[console] weather thunder"
+          - "[message] &aВариант #2 победил в голосовании"
+      item3:
+        title: "&aВариант #3"
+        slot: 14
+        material: DRIED_KELP
+        lore:
+          - ""
+          - "&3Меняет время суток на ночь и погоду на ясную"
+          - ""
+          - "&eНажмите, чтобы проголосовать!"
+          - ""
+          - "&7Голоса: {votes}"
+        actions_on_win:
+          - "[console] time set night"
+          - "[console] weather clear"
+          - "[message] &aВариант #3 победил в голосовании"
+      item4:
+        title: "&aВариант #4"
+        slot: 16
+        material: SCULK_SENSOR
+        lore:
+          - ""
+          - "&3Меняет время суток на ночь и погоду на грозовую"
+          - ""
+          - "&eНажмите, чтобы проголосовать!"
+          - ""
+          - "&7Голоса: {votes}"
+        actions_on_win:
+          - "[console] time set night"
+          - "[console] weather thunder"
+          - "[message] &aВариант #4 победил в голосовании"
