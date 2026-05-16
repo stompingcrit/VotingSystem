@@ -1,6 +1,10 @@
 <div align="center">
 
-# 🗳️ VotingSystem
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=160&section=header&text=VotingSystem&fontSize=42&fontColor=e94560&animation=fadeIn&fontAlignY=55" />
+
+</div>
+
+<div align="center">
 
 ### Production-ready voting plugin for Minecraft servers
 
@@ -12,9 +16,9 @@
 
 **Create multiple votings • Beautiful GUI • One vote per player • HEX colors**
 
----
-
 </div>
+
+---
 
 ## Features
 
@@ -52,4 +56,10 @@ gradle build
 Result jar:
 
 `build/libs/VotingSystem-1.0.0.jar`
+
+<div align="center">
+
+[![](https://img.shields.io/badge/made%20by-stompingcrit-e94560?style=flat-square&logo=github)](https://github.com/stompingcrit)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=80&section=footer" />
 
