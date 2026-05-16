@@ -1,6 +1,20 @@
-# VotingSystem
+<div align="center">
 
-Production-ready Minecraft voting plugin for Purpur/Paper 1.21.x (Java 21).
+# 🗳️ VotingSystem
+
+### Production-ready voting plugin for Minecraft servers
+
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.x-62B47A?style=for-the-badge&logo=minecraft&logoColor=white)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Paper](https://img.shields.io/badge/Paper%20%2F%20Purpur-supported-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)
+
+**Create multiple votings • Beautiful GUI • One vote per player • HEX colors**
+
+---
+
+</div>
 
 ## Features
 
