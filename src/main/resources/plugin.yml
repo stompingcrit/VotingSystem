@@ -2,7 +2,7 @@ name: VotingSystem
 version: '1.0.0'
 main: ru.dom.votingsystem.VotingSystemPlugin
 api-version: '1.21'
-authors: [Dom]
+authors: [Aezzakmi]
 description: Production-ready voting plugin for Purpur/Paper
 
 commands:
